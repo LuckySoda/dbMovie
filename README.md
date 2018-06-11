@@ -1,5 +1,4 @@
 # dbMovie
-微信小程序仿写豆瓣电影
 由于豆瓣api屏蔽了微信小程序，需要使用nginx代理请求豆瓣API的数据，以下是nginx的配置
 location  / {  
   proxy_store off;
